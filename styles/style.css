@@ -9,9 +9,9 @@ html {
 }
 
 .page {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -44,6 +44,7 @@ ol {
   align-items: flex-end;
   gap: 30px;
   max-width: 1140px;
+  margin: 133px 22px;
 }
 
 .result {
