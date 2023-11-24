@@ -9,7 +9,6 @@ html {
 }
 
 .page {
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,6 +18,7 @@ html {
   background-color: #1b1919;
   inline-size: 1200px;
   block-size: 100%;
+  width: 100%;
 }
 
 h1,
