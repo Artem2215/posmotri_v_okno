@@ -9,9 +9,9 @@ html {
 }
 
 .page {
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -44,7 +44,6 @@ ol {
   align-items: flex-end;
   gap: 30px;
   max-width: 1140px;
-  margin: 133px 22px;
 }
 
 .result {
@@ -99,7 +98,9 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 19px;
   height: 19px;
   margin-right: 5px;
@@ -187,7 +188,7 @@ ol {
 }
 
 .content__card-link {
-  display: block;
+  display: inline-block;
   margin: 2px;
   color: #fff;
   text-decoration: none;
@@ -313,14 +314,9 @@ button:focus {
 /* After */
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  display: block;
   width: 15px;
   height: 15px;
   background-color: #fff;
-  transform: translate(-50%, -50%);
 }
 /* After */
 
