@@ -90,7 +90,6 @@ ol {
   display: flex;
   gap: 15px;
   cursor: pointer;
-  inline-size: 212px;
 }
 
 .search-form__label {
@@ -173,7 +172,6 @@ ol {
 
 .content__accent {
   color: #545050;
-  font-family: 'Oswald', 'Arial', sans-serif;
 }
 
 /* Список результата */
@@ -274,8 +272,8 @@ ol {
   background-color: #545050;
 }
 
-.content__card-link_current:active {
-  background-color: #545050;
+.content__card-link_current {
+  background-color: #1B1919;
 }
 /* active */
 
