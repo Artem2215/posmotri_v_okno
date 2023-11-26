@@ -272,8 +272,8 @@ ol {
   background-color: #545050;
 }
 
-.content__card-link_current {
-  background-color: #1B1919;
+.content__card-link_current { 
+  background-color: #545050;
 }
 /* active */
 
