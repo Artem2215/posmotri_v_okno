@@ -201,6 +201,14 @@ ol {
   justify-content: flex-start;
 }
 
+.content__video-card-description-container {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 6px;
+}
+
 .content__video-card-title {
   max-width: 200px;
   color: #fff;
@@ -209,41 +217,34 @@ ol {
   font-size: 30px;
   font-style: normal;
   line-height: 100%;
-  text-transform: uppercase;
+  text-transform: uppercase;  
   text-overflow: ellipsis; 
-  white-space: nowrap; 
   overflow: hidden;
 }
 
-.content__video-card-description-container {
-  max-width: 200px;
-  display: flex;
-  flex-direction: column;
-  text-overflow: ellipsis; 
-  white-space: nowrap; 
-  overflow: hidden;
-  flex-grow: 1;
-  gap: 6px;
-}
 
 .content__video-card-description {
+  max-width: 200px;
   color: #fff;
   font-family: 'Fira Sans Condensed', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: 16.2px;
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  white-space: normal;
 }
 
 .content__video-card-thumbnail {
-  width: 194px;
+  min-width: 194px;
   height: 103px;
   object-fit: cover;
   object-position: center;
 }
 
 .more-button {
-  width: 399px;
+  width: 100%;
 }
 
 /* hover */
